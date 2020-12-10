@@ -1,0 +1,132 @@
+                                /* Définition de la police nommée Raleway */
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Regular.eot');
+    src: url('fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Raleway-Regular.woff2') format('woff2'),
+         url('fonts/Raleway-Regular.woff') format('woff'),
+         url('fonts/Raleway-Regular.ttf') format('truetype'),
+         url('fonts/Raleway-Regular.svg#Raleway-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}    
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Bold.eot');
+    src: url('fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Raleway-Bold.woff2') format('woff2'),
+         url('fonts/Raleway-Bold.woff') format('woff'),
+         url('fonts/Raleway-Bold.ttf') format('truetype'),
+         url('fonts/Raleway-Bold.svg#Raleway-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}    
+
+body
+{
+    
+    font-family: 'Raleway',Arial, serif;
+	margin: 0;
+    padding: 0;   
+
+}
+                                    /* HEADER */
+.headerreservia
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 img
+{
+    width: 100px;
+    height: 50px;
+}
+
+.headernavsig
+{
+    display: flex;  
+}
+
+.headernav, .headersignup
+{
+    padding-top: 2.5em;
+
+}
+
+.headersignup
+{
+    color: #0065FC;
+    text-decoration: none; 
+    font-weight: bold;
+    padding-right: 3em;
+    padding-left: 1.5em;
+}
+
+.hebergements,.activites
+{
+    color: black;
+    text-decoration: none; 
+    padding: 2.3em
+}
+
+.hebergements,.activites
+{
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+.hebergements:hover,.activites:hover
+{
+    border-top: solid 3px #0065FC;
+    color: #0065FC;
+}
+                                /* TITRE RESERVIA */
+.haedertitleshearch
+{   
+    font-size: 1.9em;
+    margin: 0;
+}
+
+.haedersubtitle
+{
+   margin-top: 5px;
+   font-size: 1.4em;
+    
+}
+                                /* NAVIGATION */
+
+ 
+
+                                /* TROUVEZ VOTRE HEBERGEMENT */
+
+                                /* FILTRES */
+
+
+                                /* I INFOS*/
+
+                                /* SECTION HEBERGEMENTS */
+
+
+                                /* HEBERGEMENTS A MARSEILLE */
+
+
+                                /* 1er ARTICLE */ 
+
+    
+
+                                /* 2eme ARTICLE */
+
+
+                                /* 3eme ARTICLE */
+
+                                /* 4eme ARTICLE */
+
+                                /* 5eme ARTICLE */
+
+                                /* 6eme ARTICLE */
+
+                                /* ACTIVITE A MARSEILLE */
