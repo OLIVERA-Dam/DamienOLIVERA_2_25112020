@@ -10,18 +10,18 @@
 	</head>
 
 	<body>
+		                                    <!-- HEADER -->
+		                             		<!-- NAVIGATION & RECHERCHE & FILTRE -->
 		<header class="header">
 			<div class="headerreservia">
-				<h1 class="headerimg"><img src="images/logo/Reservia_titre.png" alt="Marque Reservia" /></h1>
-				<div class="headernavsig">
-					<nav class="headernav">
-						<a class="hebergements" href="#ancre_hebergements">Hébergements</a>
-						<a class="activites" href="#ancre_activité">Activités</a>	
-					</nav>
-					<a class="headersignup" href="#inscription">S'inscrire</a>
-				</div>
-				
+				<img class="headerimg" src="images/logo/Reservia_titre.png" alt="Marque Reservia" />
+				<nav class="headernav">
+					<a class="hebergements" href="#ancrehebergements">Hébergements</a>
+					<a class="activites" href="#ancreactivite">Activités</a>	
+				</nav>
+				<a class="headersignup" href="#inscription">S'inscrire</a>
 			</div>
+
 			<div class="headertitle">
 				<h2 class="headertitleshearch" >Trouvez votre hébergement pour des vacances de rêve</h2>
 				<p class="headersubtitle">En plein centre ville ou en pleine nature</p>
@@ -36,35 +36,36 @@
        					
       			<button class="headershearchbutton">
           			<span class="headershearchtext">Rechercher</span>
+          			<i class="fas fa-search headershearchiconshearch"></i>
           		</button>
 			</form>
-
+								<!-- FILTRES -->
 			<div class="headerfiltre">
 
 				<h2 class="headertitlefiltre">Filtres</h2>
 
-				<div class="headerfiltrediv">
+				<div id="headerfiltredive" class="headerfiltrediv">
 					<div class="headerfiltrediv1">
 						<i class="fas fa-money-bill-wave headerfiltreicon"></i>
  					</div>
  					<span class="headerfiltrespan">Économique</span>
  				</div>
 
- 				<div class="headerfiltrediv">
+ 				<div id="headerfiltredivf" class="headerfiltrediv">
  					<div class="headerfiltrediv1">
 						<i class="fas fa-child headerfiltreicon"></i>
  					</div>
  					<span class="headerfiltrespan">Familial</span>
 				</div>
 
-				<div class="headerfiltrediv">
+				<div id="headerfiltredivr" class="headerfiltrediv">
  					<div class="headerfiltrediv1">
 						<i class="fas fa-heart headerfiltreicon"></i>
  					</div>
  					<span class="headerfiltrespan">Romantique</span>
 				</div>
 
-				<div class="headerfiltrediv">
+				<div id="headerfiltrediva" class="headerfiltrediv">
  					<div class="headerfiltrediv1">
 						<i class="fas fa-dog headerfiltreicon"></i>
  					</div>
@@ -76,18 +77,18 @@
  					<div class="headerinfo">
 						<i class="fas fa-info headerinfoicon"></i>
  					</div>
- 					<p class="headerinfotext">Plus de 500 logements sont dispognibles dans cette ville</p>
+ 					<p class="headerinfotext">Plus de 500 logements sont disponibles dans cette ville</p>
 			</div>
 		</header>
-
+								<!-- SECTION -->
 		<section class="sectionhosting">
 
 			<div class="sectionhostingmain">
 				<div class="sectionhostingmainmain">
 					<header class="sectionheadertitle">
-						<h2 id="ancre_hebergements">Hébergements à Marseille</h2>
+						<h2 id="ancrehebergements">Hébergements à Marseille</h2>
 					</header>
-
+								<!-- CANNEBIERE -->
 					<article id="sectionarticle1" class="cannebiere" >
 
 						<a class="sectionarticlelink" href="#">
@@ -103,16 +104,16 @@
 							<p class="titleprice">Nuit à partir de <strong class="price">25€</strong></p>
 
 							<div class="hostingnotestar" >
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="false"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star stargris"></i>
 							</div>
 									
 						</a>
 					</article>
-
+								<!-- PORT -->
 					<article id="sectionarticle2" class="port" >
 
 						<a class="sectionarticlelink" href="#">
@@ -123,19 +124,19 @@
 								</figcaption>
 						
 							</figure>
-							<p class="titleprice">Nuit àpartir de <strong class="price">52€</strong></p>
+							<p class="titleprice">Nuit à partir de <strong class="price">52€</strong></p>
 
 							<div class="hostingnotestar" >
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
 							</div>
 									
 						</a>
 					</article>
-
+								<!-- MOUETTES -->
 					<article id="sectionarticle3" class="mouettes">
 
 						<a class="sectionarticlelink" href="#">
@@ -146,19 +147,19 @@
 								</figcaption>
 						
 							</figure>
-							<p class="titleprice">Nuit àpartir de <strong class="price">76€</strong></p>
+							<p class="titleprice">Nuit à partir de <strong class="price">76€</strong></p>
 
 							<div class="hostingnotestar" >
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="false"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star stargris"></i>
 							</div>
 									
 						</a>
 					</article>
-
+								<!-- MER -->
 					<article id="sectionarticle4" class="mer" >
 
 						<a class="sectionarticlelink" href="#">
@@ -169,19 +170,19 @@
 								</figcaption>
 						
 							</figure>
-							<p class="titleprice">Nuit àpartir de <strong class="price">46€</strong></p>
+							<p class="titleprice">Nuit à partir de <strong class="price">46€</strong></p>
 
 							<div class="hostingnotestar" >
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="false"></i>
-								<i class="fas fa-star star" data-active="false"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star stargris"></i>
+								<i class="fas fa-star stargris"></i>
 							</div>	
 								
 						</a>
 					</article>
-
+								<!-- PANIER -->
 					<article id="sectionarticle5" class="panier" >
 
 						<a class="sectionarticlelink" href="#">
@@ -191,19 +192,19 @@
 									<h3>Auberge Le Panier</h3>
 								</figcaption>
 							</figure>
-							<p class="titleprice">Nuit àpartir de <strong class="price">23€</strong></p>
+							<p class="titleprice">Nuit à partir de <strong class="price">23€</strong></p>
 
 							<div class="hostingnotestar" >
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="false"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star stargris"></i>
 							</div>
 								
 						</a>
 					</article>
-
+								<!-- AMINA -->
 					<article id="sectionarticle6" class="amina" >
 
 						<a class="sectionarticlelink" href="#">
@@ -214,14 +215,14 @@
 								</figcaption>
 						
 							</figure>
-							<p class="titleprice">Nuit àpartir de <strong class="price">96€</strong></p>
+							<p class="titleprice">Nuit à partir de <strong class="price">96€</strong></p>
 
 							<div class="hostingnotestar" >
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
-								<i class="fas fa-star star" data-active="true"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
+								<i class="fas fa-star starbleu"></i>
 							</div>	
 								
 						</a>
@@ -229,78 +230,80 @@
 					<a class="sectionhostingplus" href="#">Afficher plus</a>
 				</div>	
 			</div>
-					
+								<!-- ASIDE -->	
+								<!-- POPULAIRE -->												
 			<aside class="populaire" >
-						
-				<h2 class="titlepopulaire">Les plus populaire 
-					<i class="fas fa-chart-line"></i>
-				</h2>
+				<div class="titlepopulairediv">		
+					<h2 class="titlepopulaire">Les plus populaire </h2>
+					<i id="titlepopulaireicon" class="fas fa-chart-line"></i>
+				</div>
+								<!-- HOTEL LE SOLEIL DU MATIN -->				
 				<article class="asidearticle" >
 
 					<a class="asidearticlelink" href="#">
 
-						<div class="asidearticlediv">
+						<div id="asidearticlediva" class="asidearticlediv">
 							<img class="img2" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="chambre hôtel le soleil du matin">
 							<div class="asidearticledivdiv">			
 								<h3 class="asidearticletitle">Hôtel Le soleil du matin</h3>
 										
 
-								<p class="asidetitleprice">Nuit àpartir de <strong class="asideprice">128€</strong></p>
+								<p class="asidetitleprice">Nuit à partir de <strong class="asideprice">128€</strong></p>
 
 								<div class="notestar" >		
-									<i class="fas fa-star star" data-active="true"></i>
-									<i class="fas fa-star star" data-active="true"></i>
-									<i class="fas fa-star star" data-active="true"></i>
-									<i class="fas fa-star star" data-active="true"></i>
-									<i class="fas fa-star star" data-active="true"></i>
+									<i class="fas fa-star starbleu"></i>
+									<i class="fas fa-star starbleu"></i>
+									<i class="fas fa-star starbleu"></i>
+									<i class="fas fa-star starbleu"></i>
+									<i class="fas fa-star starbleu"></i>
 								</div>
 							</div>		
 						</div>
 					</a>	
 				</article>		
-
+								<!-- AU COEUR DE L'EAU -->
 				<article class="asidearticle" >
 
 						<a class="asidearticlelink" href="#">
 
-						<div class="asidearticlediv">
+						<div id="asidearticledivb" class="asidearticlediv">
 							<img class="img2" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="chambre hôtel le soleil du matin">
 							<div class="asidearticledivdiv">			
 								<h3 class="asidearticletitle">Au coeur de l'eau Chambre d'hôtes</h3>
 										
 
-								<p class="asidetitleprice">Nuit àpartir de <strong class="asideprice">71€</strong></p>
+								<p class="asidetitleprice">Nuit à partir de <strong class="asideprice">71€</strong></p>
 
 								<div class="notestar" >		
-									<i class="fas fa-star star" data-active="true"></i>
-									<i class="fas fa-star star" data-active="true"></i>
-									<i class="fas fa-star star" data-active="true"></i>
-									<i class="fas fa-star star" data-active="true"></i>
-									<i class="fas fa-star star" data-active="false"></i>
+									<i class="fas fa-star starbleu"></i>
+									<i class="fas fa-star starbleu"></i>
+									<i class="fas fa-star starbleu"></i>
+									<i class="fas fa-star starbleu"></i>
+									<i class="fas fa-star stargris"></i>
 								</div>
 							</div>
 						</div>
 					</a>	
 				</article>		
-
+								<!-- HOTEL TOUT BLUE ET BLANC -->
 				<article class="asidearticle" >
 
 					<a class="asidearticlelink" href="#">
 
-						<div class="asidearticlediv">
+						<div id="asidearticledivc" class="asidearticlediv">
 							<img class="img2" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="chambre hôtel le soleil du matin">
 							<div class="asidearticledivdiv">								
 								<h3 class="asidearticletitle">Hôtel Tout bleu et Blanc</h3>
 										
 
-								<p class="asidetitleprice">Nuit àpartir de <strong class="asideprice">68€</strong></p>
+								<p class="asidetitleprice">Nuit à partir de <strong class="asideprice">68€</strong></p>
 
 								<div class="notestar" >		
-									<i class="fas fa-star star" data-active="true"></i>
-									<i class="fas fa-star star" data-active="true"></i>
-									<i class="fas fa-star star" data-active="true"></i>
-									<i class="fas fa-star star" data-active="true"></i>
-									<i class="fas fa-star star" data-active="false"></i>
+									<i class="fas fa-star starbleu"></i>
+									<i class="fas fa-star starbleu"></i>
+									<i class="fas fa-star starbleu"></i>
+									<i class="fas fa-star starbleu"></i>
+									<i class="fas fa-star stargris"></i>
 								</div>
 							</div>
 						</div>
@@ -308,9 +311,9 @@
 				</article>		
 			</aside>
 		</section>
-
+								<!-- ACTIVITE -->
 		<section class="sectionactivity">
-			<h2 id="ancre_activité">Activités à Marseille</h2>
+			<h2 id="ancreactivite">Activités à Marseille</h2>
 
 			<div class="sectionactivitydiv">
 				
@@ -358,7 +361,7 @@
 				
 			</div>		
 		</section>				
-				
+								<!-- FOOTER -->				
 		<footer class="footer">
 
 			<div class="footerfooter">
@@ -370,7 +373,7 @@
 					<a class="footerbottomtextpropos" href="#">Données et confidentialités</a>
 				</div>
 
-				<div class="footerbottom">
+				<div class="footerbottomheber">
 					<h3 class="footerbottomtitle">Nos hébergement</h3>
 					<a class="footerbottomtext" href="#">Charte qualité</a>
 					<a class="footerbottomtext" href="#">Soumettre votre hotel</a>
