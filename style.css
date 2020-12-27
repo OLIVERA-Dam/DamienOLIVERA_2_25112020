@@ -184,7 +184,7 @@ body
     justify-content: space-between;
     max-width: 1100px;
     align-items: center;
-    margin: 25px 0 25px 0;   
+    margin: 25px 0 25px 0;.css   
 }
 
 .headerfiltrediv
@@ -413,6 +413,19 @@ figcaption h3
 {
     max-width: 1440px;
     margin: auto;
+}
+
+#titlepopulaireicon 
+{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.titlepopulairediv 
+{
+    display: flex;
+    justify-content: space-between;
 }
 
 .titlepopulaire
